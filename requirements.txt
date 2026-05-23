@@ -1,0 +1,9 @@
+playwright
+aiohttp
+pyyaml
+tqdm
+pillow
+numpy
+scipy
+opencv-python
+ddddocr

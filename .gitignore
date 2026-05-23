@@ -1,0 +1,49 @@
+
+# 数据文件
+data/
+cookies.json
+*.log
+sessions/
+
+# 进度文件（包含用户特定的爬取状态）
+crawl_progress*.yaml
+
+# 本地配置（可能包含凭据）
+config.yaml
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+.venv/
+
+# 测试和调试
+.pytest_cache/
+.coverage
+htmlcov/
+*.png
+*.jpg
+*.jpeg
+debug_*.py
+test_*.html
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+*.backup
+._*
+
+# Claude AI
+.claude/
